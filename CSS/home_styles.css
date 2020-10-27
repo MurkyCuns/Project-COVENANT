@@ -1,0 +1,302 @@
+ /* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: 100%;
+  	}	
+
+  	body {
+  		margin: 0px;
+  	}
+
+    p {
+      margin: 0px;
+    }
+
+  	#menu-container {
+  		background-color: #000;
+  		color: #ffff;
+  	}
+
+  	#welcome-quote-container {
+  		background-color: #000;
+  		color: #fff;
+  	}
+
+    .welcome-quote {
+      color: #ffffff;
+      font-family: 'Heebo', sans-serif;
+      font-size: 3em;
+      font-weight: bolder;
+      padding: 38px;
+      line-height: 50px;
+    }
+
+    #summary-container {
+      background-color: #000000;
+      margin: 0;
+      padding-top: 0;
+      padding-right: 0;
+      padding-left: 0;
+      padding-bottom: 100px;
+    }
+
+    #welcome-presentation-quote {
+      color: #ffffff;
+      margin: 0;
+      padding: 25px;
+      font-size: 1.3em;
+      font-family: 'Didact Gothic', sans-serif;
+    }
+
+    .blue {
+      color: #009acd;
+    }
+
+    .yellow {
+      color: #ffd300;
+    }
+
+    .green {
+      color: #24D060;
+    }
+
+    .red1 {
+      color: #f00000;
+    }
+
+    .violet {
+      color: #7f609a;
+    }
+
+    #welcome-links-quote {
+      color: #fff;
+      font-family: 'Didact Gothic', sans-serif;
+      padding: 25px;
+      font-size: 1.3em;
+    }
+
+    #welcome-email-link-quote {
+      color: #fff;
+      font-family: 'Yantramanav', sans-serif;
+      padding: 25px;
+      font-size: 1.3em;
+    }
+
+    .email-link-title {
+      font-weight: 700;
+
+    }
+
+    .underline {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+    }
+
+    a {
+      font-family: 'Didact Gothic', sans-serif;
+      line-height: 1.7;
+      color: #fff;
+      margin: 0px;
+      transition: all 0.4s;
+      -webkit-transition: all 0.4s;
+      -o-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+    }
+
+    #gaming-logo-murkybrand-container {
+      background-color: #000;
+      text-align: center;
+    }
+
+    /* ----------------- PROJECTS -------------------- */
+    #welcome-projects-info-container {
+      background-color: #ffd300;
+      padding-bottom: 50px;
+    }
+
+    #welcome-projects-info-quote {
+      font-size: 1.5em;
+      font-family: 'Yantramanav', sans-serif;
+      font-weight: 300;
+      line-height: 30px;
+      padding: 25px;s
+    }
+
+    #welcome-links-quote {
+      color: #fff;
+    }
+
+    #welcome-email-link-quote {
+      color: #fff;
+    }
+
+    .email-link-title {
+      font-weight: 700;
+    }
+
+    .underline {
+      text-decoration: underline;
+      text-decoration-thickness: 4px;
+
+    }
+
+    #murkys-project-examples-container {
+      padding: 25px;
+    }
+
+    .murkys-project-examples-container {
+      width: 100%;
+    }
+
+    .quote-title {
+      font-weight: 900;
+    }
+
+    #murkys-project-list-container {
+      padding-top: 50px;
+      line-height: 25px;
+    }
+
+    #murkys-project-list {
+      color: #000;
+      font-family: 'Jura', sans-serif;
+      font-weight: 500;
+    }
+
+    .murkys-project-list-title {
+      color: #ff0000;
+      font-weight: 700;
+    }
+
+    #murkys-project-summary-quote {
+      color: #000;
+      font-family: 'Jura', sans-serif;
+      font-weight: 500;
+      padding: 25px;
+    }
+
+    /* PROJECT FOXHOUND */
+
+    #project-foxhound-container {
+      background-color: #000;
+      padding-bottom: 50px;
+    }
+
+    #project-foxhound-info-quote {
+      font-size: 1.5em;
+      font-family: 'Yantramanav', sans-serif;
+      font-weight: 300;
+      line-height: 30px;
+      color: #fff;
+      padding: 25px;
+    }
+
+    .darkgray {
+      color: #666666;
+    }
+
+    #foxhound-examples-container {
+      padding: 25px;
+    }
+
+    .project-foxhound-examples {
+      width: 100%;
+    }
+
+    #project-foxhound-list-container {
+      padding-top: 50px;
+    }
+
+    #project-foxhound-list {
+      color: #666666;
+      font-family: 'Jura', sans-serif;
+      font-weight: 500;
+    }
+
+    .project-foxhound-list-title {
+        font-family: 'Jura', sans-serif;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    #project-foxhound-summary-quote {
+      color: #666666;
+      font-family: 'Jura', sans-serif;
+      font-weight: 500;
+      padding: 25px;
+    }
+
+  /* GREETINGS */
+
+    #greetings-quote-container {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      font-family: 'Didact Gothic', sans-serif;
+      font-size: 1.5em;
+      font-weight: 100;
+      padding: 25px;
+    }
+
+    #greetings-quote {
+      color: #666666;
+    }
+
+    .red {
+      color: #ff0000;
+      font-weight: 900;
+      font-family: 'Roboto', sans-serif;
+    }
+
+  /*  Footer */
+    footer {
+      background-color: #000;
+    }
+
+    form {
+      text-align: center;
+      padding-bottom: 70px;
+    }
+
+    #newsletter-container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    #newsletter-quote {
+      text-align: center;
+      color: #fff;
+      font-family: 'Didact Gothic', sans-serif;
+      font-size: 1.5em;
+      font-weight: 100;
+    }
+
+    #copyright-quote-container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    #copyright-quote {
+      text-align: center;
+      color: #fff;
+      font-family: 'Didact Gothic', sans-serif;
+      font-size: 1.5em;
+      font-weight: 100;
+    }
+
+
+
+    #final-logo-container {
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
+
+    #final-logo-murkybrand {
+      display: flex;
+      margin: auto;
+      width: 15%;
+    }
+
+}
