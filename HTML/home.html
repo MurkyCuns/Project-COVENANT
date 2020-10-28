@@ -17,15 +17,50 @@
 	<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700&display=swap" rel="stylesheet">
+
+	
+	<script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+	  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+	</script>
+
+	<script type="text/javascript">
+	$( document ).ready(function() {
+		$('#menu_on').click(function(){ // Al hacer click...
+		   $('body').toggleClass('visible_menu');
+		 // Añadimos o eliminamos la clase 'visible_menu' al body
+		 })
+	});
+	</script>
+
 </head>
 <body>
 	<div class="grid-container">
 		<div id="menu-container">
 			<div id="logo-container">
-				<img src="" alt="MurkyCuns Logo">
+				<img id="menu-img"src="../images/logos/no-name-logo.png" alt="MurkyCuns Logo">
 			</div>
-			<div id="menu-list-container">
-				
+			<div id="wrapper">
+				<header id="#header">
+					<a href="#" id="menu_on">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+					</header>
+				<nav>
+					<div id="menu-hamburguer-logo-container">
+						<a href="../HTML/home.html">
+							<img id="menu-hamburguer-img"src="../images/logos/no-name-logo.png" alt="MurkyCuns Logo">
+						</a>
+					</div>	
+					<ul>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Sobre Mí</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contacto</a></li>
+						<li><a href="#">Podcast</a></li>
+					</ul>
+				</nav>
 			</div>
 		</div>
 		<div id="welcome-container">
