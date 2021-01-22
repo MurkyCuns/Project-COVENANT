@@ -1,0 +1,585 @@
+ /* For mobile phones: */
+@import url(//db.onlinewebfonts.com/c/4a373e70cd01dec089c1dd1185ceba51?family=Maison+Neue);
+@media only screen and (max-width: 768px) {
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: 100%;
+  	}	
+
+    hr {
+      width: 90%;
+    }
+
+  	body {
+  		margin: 0px;
+  	}
+
+    p {
+      margin: 0px;
+    }
+
+  	#menu-container {
+  		background-color: #fff;
+  		color: #000;
+  	}
+
+    #logo-container {
+      padding: 25px;
+      width: 20%;
+      float: left;
+    }
+
+    #menu-img {
+      width: 100%;
+    }
+
+    /* MENU DE HAMBURGUESA */
+    
+    ul {
+      padding: 0px;
+    }
+
+    #menu-hamburguer-img {
+      width: 20%;
+      padding-left: 20px;
+      padding-bottom: 80px;
+    }
+
+    #wrapper {
+      float: right;
+      padding-top: 50px;
+      padding-right: 40px;
+    }
+
+    #menu_on{
+      display: inline-block;
+      width:30px;
+      height: 20px;
+      position: relative;
+      z-index: 2;
+    }
+     
+    #menu_on span{
+      width: 100%;
+      height: 4px;
+      border-radius: 4px;
+      display: block;
+      position: absolute;
+      background: #000;
+      transition: all 0.25s ease; /* Propiedades a animar | Tiempo | Tipo animación*/
+      transform-origin : 0px 100%;
+    }
+     
+    #menu_on span:nth-child(2){
+      top: calc(50% - 2px);
+    }
+     
+    #menu_on span:nth-child(3){
+      bottom: 0;
+    }
+
+    nav{
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left:-700px; /* Escondemos nuestro menú con un valor negativo */ 
+      width: 100%;
+      z-index: 1;
+      background: #fff;
+      opacity: 0;
+      transition: all 0.75s ease;
+      font-size: 1.2em;
+      overflow-y: auto;
+      padding-top: 125px;
+    }
+
+    nav li a{
+      display:block;
+      font-size: 2.5em;
+      font-weight: lighter;
+      font-family: 'Didact Gothic', sans-serif;
+      text-align: center;
+      line-height: 70px;
+      text-decoration: none;
+      padding: 10px;
+      color: #000;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      transition: all ease 0.25s;
+    }
+     
+    nav a:hover{
+      border-bottom-color:rgba(255,255,255,0.4);
+    }
+
+    .visible_menu span:nth-child(1){
+      transform: rotate(45deg) translate(-2px,1px);
+    }
+     
+    .visible_menu span:nth-child(2){
+      opacity: 0;
+    }
+     
+    .visible_menu span:nth-child(3){
+      transform: rotate(-45deg) translate(-3px,3px);
+    }
+
+    .visible_menu nav{
+      left: 0;
+      opacity: 1;
+    }
+  
+    .visible_menu #content{
+      transform: translateX(260px);
+    }
+
+    /* FIN */
+
+    #welcome-container {
+      background-color: #fff;
+      margin: 0;
+    }
+
+  	#welcome-quote-container {
+  		background-color: #ffffff;
+  		color: #000;
+  	}
+
+    .welcome-quote {
+      color: #000;
+      font-family: 'Maison Neue', sans-serif;
+      font-size: 3.5em;
+      font-weight: 900;
+      line-height: 50px;
+      letter-spacing: -0.1rem;
+      padding: 25px;
+    }
+
+    #summary-container {
+      background-color: #fff;
+      margin: 0;
+      padding-top: 0;
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    #welcome-presentation-quote {
+      color: #000;
+      margin: 0;
+      padding: 25px;
+      font-size: 1.3em;
+      font-family: 'Didact Gothic', sans-serif;
+    }
+
+    .gray {
+      color: rgb(127, 127, 127);
+    }
+
+    #welcome-links-quote {
+      color: #fff;
+      font-family: 'Didact Gothic', sans-serif;
+      padding: 25px;
+      font-size: 1.3em;
+    }
+
+    #welcome-email-link-quote {
+      color: #fff;
+      font-family: 'Yantramanav', sans-serif;
+      padding: 25px;
+      font-size: 1.3em;
+    }
+
+    #gaming-logo-murkybrand-container {
+      text-align: center;
+      padding: 25px;
+    }
+
+    #gaming-logo-murkybrand {
+      width: 100%;
+    }
+
+    .email-link-title {
+      font-weight: 700;
+
+    }
+
+    .index-flag {
+      width: 6%;
+      padding-left: 25px;
+      padding-right: 10px;
+    }
+
+    .underline {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+    }
+
+    a {
+      font-family: 'Didact Gothic', sans-serif;
+      line-height: 1.7;
+      color: #fff;
+      margin: 0px;
+      transition: all 0.4s;
+      -webkit-transition: all 0.4s;
+      -o-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+    }
+
+      /* Projects MAde */
+
+        #projects-made-quote-container {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .projects-made-quote {
+      color: #fff;
+      font-family: 'Maison Neue', sans-serif;
+      font-size: 3.5em;
+      font-weight: 750;
+      padding: 25px;
+      line-height: 55px;
+      letter-spacing: -0.1rem;
+    }
+
+    #projects-made-ol {
+      margin: 0;
+      padding-top: 20px;
+    }
+
+    #projects-made-index {
+      padding-left: 5px;
+      padding-bottom: 50px;
+      background-color: #000;
+      color: white;
+      padding-bottom: 80px;
+    }
+
+    #projects-made-summary-container {
+      background-color: #000;
+      margin: 0;
+      padding-top: 0;
+      padding-right: 0;
+      padding-left: 0;
+      padding-bottom: 10px;
+    }
+
+    #projects-made-presentation-quote {
+      color: #fff;
+      margin: 0;
+      padding: 25px;
+      font-size: 1.3em;
+      font-family: 'Didact Gothic', sans-serif;
+    }
+
+    .projects-made-index-item {
+      font-family: 'Jura', sans-serif;
+      font-size: 1.5em;
+      padding-bottom: 1px;
+    }
+
+      /* HOBBIES MAde */
+
+        #hobbies-made-quote-container {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .hobbies-made-quote {
+      color: #000;
+      font-family: 'Maison Neue', sans-serif;
+      font-size: 3.5em;
+      font-weight: 750;
+      padding: 25px;
+      line-height: 55px;
+      letter-spacing: -0.1rem;
+    }
+
+    .hobbies-made-index-title {
+            color: #000;
+      font-family: 'Maison Neue', sans-serif;
+      font-size: 2.5em;
+      font-weight: 750;
+      padding: 25px;
+      line-height: 35px;
+      letter-spacing: -0.08rem;
+      text-align: right;
+    }
+
+    .hobbies-title {
+      font-family: 'Maison Neue', sans-serif;
+
+    }
+
+    #hobbies-made-ul {
+      margin: 0;
+      list-style-type: none;
+    }
+
+    #hobbies-made-index {
+      padding-left: 5px;
+      padding-bottom: 50px;
+      background-color: #fff;
+      color: white;
+      padding-bottom: 80px;
+    }
+
+    #hobbies-made-summary-container {
+      background-color: #fff;
+      margin: 0;
+      padding-top: 0;
+      padding-right: 0;
+      padding-left: 0;
+      padding-bottom: 10px;
+    }
+
+    #hobbies-made-presentation-quote {
+      color: #000;
+      margin: 0;
+      padding: 25px;
+      font-size: 1.3em;
+      font-family: 'Didact Gothic', sans-serif;
+    }
+
+    ol#try {
+      list-style-type: circle;
+    }
+
+    .hobbies-made-index-item {
+      font-family: 'Jura', sans-serif;
+      font-size: 1.5em;
+      padding-bottom: 1px;
+      color: #000;
+      padding-left: 0px;
+    }
+
+    .hobbie-title {
+      font-size: 1.1em;
+    }
+
+    .hobbie-sumary {
+      color: #000;
+      margin: 0;
+      padding-left: 15px;
+      padding-top: 15px;
+      padding-bottom: 15px;  
+      padding-right: 30px;
+      font-size: 1.3em;
+      font-family: 'Didact Gothic', sans-serif;
+    }
+
+    .hobbie-sumary-title {
+      color: red;
+    }
+
+    .python-sumary-title {
+      color: #3776ab;
+    }
+
+    .html-sumary-title {
+      color: #ff5500;
+    }
+
+    .css-sumary-title {
+      color: #004cff;
+    }
+
+    .js-sumary-title {
+      color: #c9bc00;
+    }
+
+    .csharp-sumary-title {
+      color: #9500ff;
+    }
+
+    .php-sumary-title {
+      color: #4F5B93;
+    }
+
+    .ws-sumary-title {
+      color: #004cff;
+    }
+
+    .my {
+      color: #0074a3;
+    }
+
+    .sql {
+      color: #e97b00;
+    }
+
+    .bitcoin-sumary-title {
+      color: #FF9500;
+    }
+
+    .ue-sumary-title {
+      color: #009c0d;
+    }
+
+    .insta-sumary-title {
+      color: #c13584;
+    }
+
+    .non {
+      line-height: 10px;
+    }
+
+    .twitter-sumary-title {
+      color: #1da1f2;
+    }
+
+    .facebook-sumary-title {
+      color: #4267B2;
+    }
+
+    .yt-sumary-title {
+      color: #ff0000;
+    }
+
+    .eth-sumary-title {
+      color: #997cd6;
+    }
+
+    .dash-sumary-title {
+      color: #0095ff;
+    }
+
+    #foxhound-link {
+      text-decoration: none;
+    }
+
+    #covenant-link {
+      text-decoration: none;
+    }
+
+    #slowburn-link {
+      text-decoration: none;
+    }
+
+    #novelty-link {
+      text-decoration: none;
+    }
+
+
+  /*  Footer */
+    footer {
+      background-color: #000;
+      width: 100%;
+    }
+
+    form {
+      width: 100%;
+      padding-bottom: 50px;
+      display: block;
+      padding-right: 0;
+      padding-left: 0;
+      padding-top: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    #newsletter-container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    #newsletter-quote {
+      text-align: center;
+      color: #fff;
+      font-family: 'Didact Gothic', sans-serif;
+      font-size: 1.5em;
+      font-weight: 100;
+      padding: 25px;
+    }
+
+    #copyright-quote-container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    #copyright-quote {
+      text-align: center;
+      color: #fff;
+      font-family: 'Didact Gothic', sans-serif;
+      font-size: 1.5em;
+      font-weight: 100;
+    }
+
+
+    #mce-FNAME {
+      color: #000000;
+      background-color: #fff;
+      text-align: center;
+      font-size: 1.5em;
+      border-width: 0rem;
+      border-color: #000000;
+      width: 99.5%;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+
+    #mce-EMAIL {
+      color: #000000;
+      background-color: #a1a1a1;
+      text-align: center;
+      font-size: 1.5em;
+      border-width: 0rem;
+      border-color: #000000;
+      border-radius: 0;
+      width: 99.5%;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+
+    .mailchimp-submit-button {
+      color: #ffffff;
+      font-size: 3.2em;
+      font-weight: bolder;
+      font-family: 'Maison Neue', sans-serif;
+      letter-spacing: 1px;
+      background-color: #ff0000;
+      border-width: 0em;
+      border-color: #000000;
+      border-radius: 0em;
+      width: 100%;
+      padding-top:15px;
+      padding-bottom: 15px;
+    }
+
+    /* Friends */
+
+    #friends-quote-container {
+      padding-top: 35px;
+      padding-right: 25px;
+      padding-left: 25px;
+      padding-bottom: 2px;
+      line-height: 1px;
+    }
+
+
+    #friends-quote {
+      text-align: left;
+      color: #fff;
+      font-family: 'Didact Gothic', sans-serif;
+      font-size: 1.5em;
+      font-weight: 100;
+    }
+
+    .friends-quote-style {
+      font-size: 1.5em;
+      text-decoration: none;
+      color: rgb(153, 153, 153);
+    }
+
+    #final-logo-container {
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
+
+    #final-logo-murkybrand {
+      display: flex;
+      margin: auto;
+      width: 25%;
+    }
+
+}
